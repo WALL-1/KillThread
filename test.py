@@ -1,13 +1,3 @@
-# Kill Thread  
-只有一个功能，杀死线程！
-
-# 安装
-```
-pip install kill-thread
-```
-
-# 示例
-``` python
 import time
 import datetime
 import threading
@@ -30,4 +20,3 @@ kill_thread(thread)
 
 # 阻塞主线程观察打印时间的线程是否被杀死
 input('按任意键终止主线程')
-```
